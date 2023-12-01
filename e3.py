@@ -10,3 +10,9 @@ Programa que mostra per pantalla la suma de tots els nombres senars i de tots el
 si el límit és 54 sumaParells 702 i sumaSenars 729
 
 """
+
+try:
+except ValueError:
+    print("Introduce bien los datos")
+finally:
+    print("Programa terminado")

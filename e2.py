@@ -16,3 +16,9 @@ OUTPUT
 5 5 5 5 5
 
 """
+
+try:
+except ValueError:
+    print("Introduce bien los datos")
+finally:
+    print("Programa terminado")

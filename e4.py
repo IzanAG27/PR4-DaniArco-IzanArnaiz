@@ -18,3 +18,9 @@ BLANC=" "
  Interessant: mostrar els numeris de filera
   i la lletra de columna (com a la imatge)
 """
+
+try:
+except ValueError:
+    print("Introduce bien los datos")
+finally:
+    print("Programa terminado")

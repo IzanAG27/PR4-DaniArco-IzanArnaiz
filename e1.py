@@ -9,3 +9,9 @@ Descripció: Programa que demana a l'usuari la introducció de 10 nombres sencer
 quants són positius, quants negatius i quants zero.
 """
 
+try:
+
+except ValueError:
+    print("Introduce bien los datos")
+finally:
+    print("Programa terminado")

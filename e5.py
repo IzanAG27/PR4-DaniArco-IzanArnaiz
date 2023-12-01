@@ -6,3 +6,9 @@ ASIXc M03-UF1 A4 PR4
 
 Descripció: Programa que realitza la multiplicació, de dos nombres sencers,  mitjançant sumes.
 """
+
+try:
+except ValueError:
+    print("Introduce bien los datos")
+finally:
+    print("Programa terminado")
