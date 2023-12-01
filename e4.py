@@ -20,6 +20,9 @@ BLANC=" "
 """
 
 try:
+
+
+
 except ValueError:
     print("Introduce bien los datos")
 finally:
