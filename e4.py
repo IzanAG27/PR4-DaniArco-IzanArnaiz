@@ -1,5 +1,5 @@
 """
-Noms: Dani Arco, Izan Arnaiz
+Noms: Jofre Aleman, Dani Arco, Izan Arnaiz
 Data: 1/12/2023
 Lliurament: 4/12/2023
 ASIXc M03-UF1 A4 PR4

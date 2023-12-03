@@ -1,5 +1,5 @@
 """
-Noms: Dani Arco, Izan Arnaiz
+Noms: Jofre Aleman, Dani Arco, Izan Arnaiz
 Data: 1/12/2023
 Lliurament: 4/12/2023
 ASIXc M03-UF1 A4 PR4
@@ -18,20 +18,21 @@ OUTPUT
 5 5 5 5 5
 
 """
-cont = " "
 try:
-    altura = int(input())
-
-    for i in range(1, altura+1):
-        print(i)
-        if i == altura:
-            print((str(i) + ' ') * i, end="")
+    altura = int(input("Altura del triángulo (entre 2 y 9): "))
+    if 2 <= altura <= 9:
+        for i in range(1, altura + 1):
+            print(i, end=" ")
+            if i > 1 and i < altura:
+                espacios = 2 * (i - 2)
+                print(" " * espacios + str(i), end=" ")
+            elif i == altura:
+                print((str(i) + ' ') * (i-1), end="")
             print()
-        else:
-            print(str(i+1) + cont, end="")
-            cont = cont + " "
+    else:
+        print("La altura debe estar entre 2 y 9.")
 
 except ValueError:
-    print("Introduce bien los datos")
+    print("Introduce un valor válido.")
 finally:
-    print("Programa terminado")
+    print("Programa terminado.")
