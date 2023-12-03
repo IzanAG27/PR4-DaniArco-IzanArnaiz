@@ -16,6 +16,7 @@ try:
             print(num1, end="")
         else:
             print(num1, " +  ", end="")
+    print(" =",num1 * num2)
 
 except ValueError:
     print("\nIntroduce bien los datos")
