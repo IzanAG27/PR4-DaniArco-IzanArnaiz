@@ -16,8 +16,8 @@ try:
     sumaP = 0
     sumaS = 0
 
-#S'utikitza el if per poder diferenciar entre senars i parells, d'aquesta manera podem assignar els numeros
-#senars i parells a cada suma per poder sumar-li el segunet numero
+# S'utilitza el if per poder diferenciar entre senars i parells, d'aquesta manera podem assignar els numeros
+# senars i parells a cada suma per poder sumar-li el seguent numero
     for i in range(num):
         if i % 2 == 0:
             sumaP += i

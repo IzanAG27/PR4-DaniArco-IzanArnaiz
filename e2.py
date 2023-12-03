@@ -18,7 +18,10 @@ OUTPUT
 5 5 5 5 5
 
 """
+
+# Control de errores
 try:
+    # Programa que calcula la altura y el ancho de un triángulo
     altura = int(input("Altura del triángulo (entre 2 y 9): "))
     if 2 <= altura <= 9:
         for i in range(1, altura + 1):

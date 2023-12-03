@@ -9,13 +9,18 @@ Descripció: Programa que demana a l'usuari la introducció de 10 nombres sencer
 quants són positius, quants negatius i quants zero.
 """
 
+# Control de errores
 try:
+
+    # Variables para guardar información
     numero = input().split()
     longuitud = len(numero)
     positiu = 0
     negatiu = 0
     casSigui0 = 0
     cont = 0
+
+    # Programa que calcula a través de les variables cuantos números són, positius, negatius o zero.
     if longuitud == 10:
         while cont != longuitud:
             if int(numero[cont]) > 0:
