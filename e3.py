@@ -10,6 +10,7 @@ un número límit, que l’usuari introdueix per teclat.
  Ex: 	si el límit és 31 sumaParells 240 i sumaSenars 225
 si el límit és 54 sumaParells 702 i sumaSenars 729
 """
+# Control d'errors
 try:
     num = int(input())
 
