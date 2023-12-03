@@ -8,9 +8,8 @@ Descripció: Programa que realitza la multiplicació, de dos nombres sencers,  m
 """
 try:
 
-    numeros = input("").split()
-    num1 = int(numeros[0])
-    num2 = int(numeros[1])
+    num1, num2 = [int(x) for x in input().split()]
+
     for x in range(num2):
         if x == num2 - 1:
             print(num1, end="")
