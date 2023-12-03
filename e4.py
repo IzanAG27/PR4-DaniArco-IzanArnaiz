@@ -18,12 +18,20 @@ BLANC=" "
  Interessant: mostrar els numeris de filera
   i la lletra de columna (com a la imatge)
 """
+BLANC = "⬜"
+NEGRE = "⬛"
 
-try:
+lletres = "  a b c d e f g h"
+numeros = ("12345678")
 
+for fila in range(8):
+    print("\n" + numeros[fila], end="")
+    for columna in range(8):
+        if (fila + columna) % 2 == 0:
+            casella = BLANC
+        else:
+            casella = NEGRE
+        print(casella, end="")
 
-
-except ValueError:
-    print("Introduce bien los datos")
-finally:
-    print("Programa terminado")
+print()
+print(lletres)
