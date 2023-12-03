@@ -11,16 +11,19 @@ un número límit, que l’usuari introdueix per teclat.
 si el límit és 54 sumaParells 702 i sumaSenars 729
 """
 try:
-    num1 = int(input())
+    num = int(input())
 
     sumaP = 0
     sumaS = 0
 
-    for i in range(2, num1 + 1, 2):
-        sumaP += i
+    for i in range(num):
+        if i % 2 == 0:
+            sumaP += i
+        else:
+            sumaS += i
 
+    print(f'Si el límit és {num}, la sumaParells és {sumaP} i la sumaSenars {sumaS}')
 
- print(f'Si el límit és {}")
 except ValueError:
     print("Introduce bien los datos")
 finally:
