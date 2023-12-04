@@ -18,11 +18,11 @@ BLANC=" "
  Interessant: mostrar els numeris de filera
   i la lletra de columna (com a la imatge)
 """
-BLANC = "⬜"
-NEGRE = "⬛"
+BLANC = " ⬛ "
+NEGRE = " ⬜ "
 
-lletres = "  a b c d e f g h"
-numeros = ("12345678")
+lletres = "  a  b  c  d  e  f  g  h"
+numeros = ("87654321")
 
 for fila in range(8):
     print("\n" + numeros[fila], end="")
